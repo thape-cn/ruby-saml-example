@@ -24,3 +24,11 @@ Steps to to in onelogin.com
    ACS (Consumer) URL Validator*: `http://localhost:3000/*`
    ACS (Consumer) URL*: `http://localhost:3000/saml/acs`
 4. View X.509 Certificat, SSO Issuer URL, SAML 2.0 Endpoint (HTTP) and SLO Endpoint (HTTP) in SSO tab and fill at `app/models/account.rb`
+
+
+To generate SP cert key
+-----------------------
+
+```bash
+openssl req -x509 -sha1 -nodes -days 3650 -newkey rsa:2048 -keyout saml_example_key.key -out saml_example_cert.crt
+```
