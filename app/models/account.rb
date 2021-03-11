@@ -17,9 +17,9 @@ class Account < ActiveRecord::Base
     settings.assertion_consumer_logout_service_url = url_base + "/saml/logout"
 
     # IdP section
-    settings.idp_entity_id                  = "https://oauth2id.dev/saml/auth"
-    settings.idp_sso_target_url             = "https://oauth2id.dev/saml/auth"
-    settings.idp_slo_target_url             = "https://oauth2id.dev/saml/logout"
+    settings.idp_entity_id                  = "https://sso-id.com/saml/auth"
+    settings.idp_sso_target_url             = "https://sso-id.com/saml/auth"
+    settings.idp_slo_target_url             = "https://sso-id.com/saml/logout"
     settings.idp_cert                       = "-----BEGIN CERTIFICATE-----
 MIIDVjCCAj4CCQCezR+RpTpSaTANBgkqhkiG9w0BAQsFADBtMQswCQYDVQQGEwJD
 TjERMA8GA1UECAwIU2hhbmdoYWkxETAPBgNVBAoMCG9hdXRoMmlkMRUwEwYDVQQD
