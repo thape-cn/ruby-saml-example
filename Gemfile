@@ -3,8 +3,6 @@ source 'https://rubygems.org'
 # bundle config local.ruby-saml /Users/guochunzhong/git/sso/ruby-saml/
 gem 'ruby-saml', git: 'https://github.com/onelogin/ruby-saml', branch: :master
 
-gem 'byebug'
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.1.3'
 
