@@ -6,13 +6,13 @@ gem 'ruby-saml', git: 'https://github.com/onelogin/ruby-saml', branch: :master
 gem 'byebug'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0.3'
+gem 'rails', '~> 6.1.3'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails'
-gem 'sprockets', '~> 3.7'
+gem 'sprockets'
 # Use Uglifier as compressor for JavaScript assets
 #gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -37,7 +37,7 @@ gem 'jbuilder'
 
 # Use unicorn as the app server
 # gem 'unicorn'
-gem "puma"
+gem 'puma'
 
 group :development, :test do
   gem 'byebug', platform: :mri
